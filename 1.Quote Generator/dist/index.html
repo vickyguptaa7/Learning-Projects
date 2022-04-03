@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" class="text-[80%] sm:text-[85%] md:text-[90%] lg:text-[95%] xl:text-[100%]">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+    <title>Quote Generator</title>
+  <script type="module" crossorigin src="assets/index.f6151e25.js"></script>
+  <link rel="stylesheet" href="assets/index.56bba57c.css">
+</head>
+
+<body
+    class="backgroundImage h-screen w-screen min-w-[24rem] min-h-[28rem] grid place-content-center font-sourcesp relative">
+    <header class="absolute top-0 left-0 w-full h-16 bg-black grid place-content-center">
+        <h1 class="text-3xl sm:text-4xl font-bold hover:scale-110 duration-300 ease-in-out underline text-white"> Random
+            Quote Generator</h1>
+    </header>
+    <!-- wrapper -->
+    <main class="w-11/12 m-auto lg hover:scale-110 duration-300 ease-in-out">
+        <!-- Quotes Wrapper -->
+        <section id="quotes-wrapper"
+            class=" bg-white bg-opacity-80 px-6 py-4 rounded-lg shadow-lg shadow-slate-500 flex flex-col justify-center items-center gap-4 max-w-3xl m-4">
+            <!-- Quotes -->
+            <div class=" text-3xl font-semibold text-center">
+                <i class="fa-solid fa-quote-left text-6xl"></i>
+                <span class="quote"></span>
+            </div>
+
+            <!-- Author -->
+            <div class="text-2xl italic font-semibold">
+                <span class="text-3xl font-semibold">~</span>
+                <span class="author "></span>
+            </div>
+
+            <!-- Buttons -->
+            <div class="flex justify-between w-full flex-wrap gap-2">
+                <button
+                    class="post-twitter bg-black rounded-lg border-b-4 border-slate-600 text-white px-4 py-1 active:border-b-2 active:scale-95 hover:scale-105 hover:text-cyan-400">
+                    <i class="fa-brands fa-twitter text-2xl"></i>
+                </button>
+                <button
+                    class="get-quote bg-black rounded-lg border-b-4 border-slate-600 text-white px-4 py-1 active:border-b-2 active:scale-95 hover:scale-105 font-semibold">
+                    New Quote
+                </button>
+            </div>
+        </section>
+        <!-- Loader Animation -->
+        <section id="loader">
+            <div
+                class=" animate-spin w-20 border-8 border-gray-300 bg-transparent aspect-square rounded-full border-t-8 border-t-black ">
+            </div>
+        </section>
+    </main>
+    <footer class="absolute bottom-0 left-0 w-screen h-16 bg-black grid place-content-center">
+        <p class="text-lg font-semibold text-white">Copyright &copy; 2022 Vicky Gupta</p>
+    </footer>
+</body>
+
+</html>
