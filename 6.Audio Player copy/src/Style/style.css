@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.div-style {
+  @apply w-full h-96 md:h-[28rem];
+}
+
+.img-style {
+  @apply w-full h-full object-cover object-center;
+}

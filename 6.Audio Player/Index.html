@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head class="">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./src/Style/style.css">
+    <script src="./src/js/app.js" type="module" defer></script>
+    <title>Document</title>
+</head>
+
+<body class="bg-slate-300 flex items-center justify-center h-screen font-Nunito min-w-[24rem] min-h-[32rem]">
+    <div class="w-80 player-container bg-[#e7e7e7] relative p-4 pt-48 shadow-xl rounded-xl shadow-gray-500">
+        <img src=""
+            class="w-56 aspect-square object-center object-cover absolute top-[-3rem] left-[50%] -translate-x-[50%] shadow-lg rounded-xl shadow-gray-500"
+            alt="album art">
+        <h2 class="title text-center mt-4 text-3xl font-extrabold">
+            Desire
+        </h2>
+        <h3 class="artist text-center text-md font-semibold">
+            Ap Dhillon
+        </h3>
+        <audio src=""></audio>
+        <!-- Progress -->
+        <div class=" flex flex-col-reverse mt-4 gap-2">
+            <div class="progress-container cursor-pointer w-full relative h-[0.25rem] bg-white rounded-full">
+                <div class="progress absolute h-full w-[0%] bg-black rounded-full">
+
+                </div>
+            </div>
+            <div class="duration-wrapper flex justify-between text-sm font-semibold">
+                <span class="curr-duration">0:00</span>
+                <span class="total-duration">2:48</span>
+            </div>
+        </div>
+        <!-- Controls -->
+        <div class="controls flex items-center mt-6 mb-2 justify-center">
+            <button class="hover:brightness-75 active:scale-90 duration-300 ease-in-out" title="Prev">
+                <i class="control-prev fa-solid fa-backward text-4xl text-gray-500"></i>
+            </button>
+            <button class="ml-8 hover:brightness-75  active:scale-90 duration-300 ease-in-out"
+                title="Play">
+                <i class="control-play  fa-solid fa-play text-4xl text-gray-500"></i>
+            </button>
+            <button class="ml-8 hover:brightness-75 active:scale-90 duration-300 ease-in-out" title="Next">
+                <i class="control-next fa-solid fa-forward text-4xl text-gray-500"></i>
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+Random-User-Images
+https://randomuser.me/
+
+Animate-on-Scroll-Library
+https://michalsnik.github.io/aos/
+
+Google-Loading-Third-Party-Script
+https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/loading-third-party-javascript
+
+Async-Defer-Visualized
+https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/loading-third-party-javascript#use_async_or_defer
+
+Creative-Tim-Template
+https://www.creative-tim.com/learning-lab/tailwind-starter-kit/presentation
