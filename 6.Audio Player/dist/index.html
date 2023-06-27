@@ -9,8 +9,9 @@
         integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     
+    <link rel="icon" href="../src/Img/itunes.png">
     
-    <title>Document</title>
+    <title>Music Player</title>
   <script type="module" crossorigin src="assets/index.5fbd858b.js"></script>
   <link rel="stylesheet" href="assets/index.2ab8ef83.css">
 </head>
@@ -20,36 +21,36 @@
         <img src=""
             class="w-56 aspect-square object-center object-cover absolute top-[-3rem] left-[50%] -translate-x-[50%] shadow-lg rounded-xl shadow-gray-500"
             alt="album art">
-        <h2 class="title text-center mt-4 text-3xl font-extrabold">
+        <h2 class="mt-4 text-3xl font-extrabold text-center title">
             Desire
         </h2>
-        <h3 class="artist text-center text-md font-semibold">
+        <h3 class="font-semibold text-center artist text-md">
             Ap Dhillon
         </h3>
         <audio src=""></audio>
         <!-- Progress -->
-        <div class=" flex flex-col-reverse mt-4 gap-2">
+        <div class="flex flex-col-reverse gap-2 mt-4 ">
             <div class="progress-container cursor-pointer w-full relative h-[0.25rem] bg-white rounded-full">
                 <div class="progress absolute h-full w-[0%] bg-black rounded-full">
 
                 </div>
             </div>
-            <div class="duration-wrapper flex justify-between text-sm font-semibold">
+            <div class="flex justify-between text-sm font-semibold duration-wrapper">
                 <span class="curr-duration">0:00</span>
                 <span class="total-duration">2:48</span>
             </div>
         </div>
         <!-- Controls -->
-        <div class="controls flex items-center mt-6 mb-2 justify-center">
-            <button class="hover:brightness-75 active:scale-90 duration-300 ease-in-out" title="Prev">
-                <i class="control-prev fa-solid fa-backward text-4xl text-gray-500"></i>
+        <div class="flex items-center justify-center mt-6 mb-2 controls">
+            <button class="duration-300 ease-in-out hover:brightness-75 active:scale-90" title="Prev">
+                <i class="text-4xl text-gray-500 control-prev fa-solid fa-backward"></i>
             </button>
-            <button class="ml-8 hover:brightness-75  active:scale-90 duration-300 ease-in-out"
+            <button class="ml-8 duration-300 ease-in-out hover:brightness-75 active:scale-90"
                 title="Play">
-                <i class="control-play  fa-solid fa-play text-4xl text-gray-500"></i>
+                <i class="text-4xl text-gray-500 control-play fa-solid fa-play"></i>
             </button>
-            <button class="ml-8 hover:brightness-75 active:scale-90 duration-300 ease-in-out" title="Next">
-                <i class="control-next fa-solid fa-forward text-4xl text-gray-500"></i>
+            <button class="ml-8 duration-300 ease-in-out hover:brightness-75 active:scale-90" title="Next">
+                <i class="text-4xl text-gray-500 control-next fa-solid fa-forward"></i>
             </button>
         </div>
     </div>

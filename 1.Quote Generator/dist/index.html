@@ -9,7 +9,7 @@
         integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     
-    
+    <link rel="icon" href="../src/Images/speech.png">
     <title>Quote Generator</title>
   <script type="module" crossorigin src="assets/index.f6151e25.js"></script>
   <link rel="stylesheet" href="assets/index.56bba57c.css">
@@ -17,18 +17,18 @@
 
 <body
     class="backgroundImage h-screen w-screen min-w-[24rem] min-h-[28rem] grid place-content-center font-sourcesp relative">
-    <header class="absolute top-0 left-0 w-full h-16 bg-black grid place-content-center">
-        <h1 class="text-3xl sm:text-4xl font-bold hover:scale-110 duration-300 ease-in-out underline text-white"> Random
+    <header class="absolute top-0 left-0 grid w-full h-16 bg-black place-content-center">
+        <h1 class="text-3xl font-bold text-white underline duration-300 ease-in-out sm:text-4xl hover:scale-110"> Random
             Quote Generator</h1>
     </header>
     <!-- wrapper -->
-    <main class="w-11/12 m-auto lg hover:scale-110 duration-300 ease-in-out">
+    <main class="w-11/12 m-auto duration-300 ease-in-out lg hover:scale-110">
         <!-- Quotes Wrapper -->
         <section id="quotes-wrapper"
-            class=" bg-white bg-opacity-80 px-6 py-4 rounded-lg shadow-lg shadow-slate-500 flex flex-col justify-center items-center gap-4 max-w-3xl m-4">
+            class="flex flex-col items-center justify-center max-w-3xl gap-4 px-6 py-4 m-4 bg-white rounded-lg shadow-lg bg-opacity-80 shadow-slate-500">
             <!-- Quotes -->
-            <div class=" text-3xl font-semibold text-center">
-                <i class="fa-solid fa-quote-left text-6xl"></i>
+            <div class="text-3xl font-semibold text-center ">
+                <i class="text-6xl fa-solid fa-quote-left"></i>
                 <span class="quote"></span>
             </div>
 
@@ -39,13 +39,13 @@
             </div>
 
             <!-- Buttons -->
-            <div class="flex justify-between w-full flex-wrap gap-2">
+            <div class="flex flex-wrap justify-between w-full gap-2">
                 <button
-                    class="post-twitter bg-black rounded-lg border-b-4 border-slate-600 text-white px-4 py-1 active:border-b-2 active:scale-95 hover:scale-105 hover:text-cyan-400">
-                    <i class="fa-brands fa-twitter text-2xl"></i>
+                    class="px-4 py-1 text-white bg-black border-b-4 rounded-lg post-twitter border-slate-600 active:border-b-2 active:scale-95 hover:scale-105 hover:text-cyan-400">
+                    <i class="text-2xl fa-brands fa-twitter"></i>
                 </button>
                 <button
-                    class="get-quote bg-black rounded-lg border-b-4 border-slate-600 text-white px-4 py-1 active:border-b-2 active:scale-95 hover:scale-105 font-semibold">
+                    class="px-4 py-1 font-semibold text-white bg-black border-b-4 rounded-lg get-quote border-slate-600 active:border-b-2 active:scale-95 hover:scale-105">
                     New Quote
                 </button>
             </div>
@@ -53,11 +53,11 @@
         <!-- Loader Animation -->
         <section id="loader">
             <div
-                class=" animate-spin w-20 border-8 border-gray-300 bg-transparent aspect-square rounded-full border-t-8 border-t-black ">
+                class="w-20 bg-transparent border-8 border-t-8 border-gray-300 rounded-full animate-spin aspect-square border-t-black">
             </div>
         </section>
     </main>
-    <footer class="absolute bottom-0 left-0 w-screen h-16 bg-black grid place-content-center">
+    <footer class="absolute bottom-0 left-0 grid w-screen h-16 bg-black place-content-center">
         <p class="text-lg font-semibold text-white">Copyright &copy; 2022 Vicky Gupta</p>
     </footer>
 </body>
